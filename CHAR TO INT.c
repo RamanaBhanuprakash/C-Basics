@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int b;
-b = 67;
-printf("corresponding ASCII charecter for 67 is:%c",b);
+char ch;
+ch = 'z';
+printf("corresponding ASCII number for %c is:%d",ch,ch);
 }
